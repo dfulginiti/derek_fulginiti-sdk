@@ -1,7 +1,17 @@
 {
+  "name": "@dfulginiti/lotr-sdk",
+  "version": "1.0.0",
+  "description": "An SDK for The One API.",
+  "main": "./src/index.ts",
   "scripts": {
     "test": "mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfulginiti/derek_fulginiti_sdk.git"
+  },
+  "author": "Derek Fulginiti",
+  "license": "MIT",
   "devDependencies": {
     "@types/mocha": "^10.0.1",
     "chai": "^4.3.7",
