@@ -1,10 +1,10 @@
-import { Client } from './client/client'
-import { Movie } from './resources/movie';
-import { Quote } from './resources/quote'
-import { MovieResponse } from './models/response/movie'
-import { QuoteResponse } from './models/response/quote';
+import Client from './client/client'
+import Movie from './resources/movie';
+import Quote from './resources/quote'
+import MovieResponse from './models/response/movie'
+import QuoteResponse  from './models/response/quote';
 
-export class Lotr {
+export default class Lotr {
     private readonly client: Client;
 
     private readonly movieResource: Movie; 

@@ -1,4 +1,4 @@
-export class Client {
+export default class Client {
     private readonly baseUrl = 'https://the-one-api.dev/v2';
 
     constructor(private apiKey?: string) {}

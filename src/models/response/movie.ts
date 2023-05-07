@@ -1,4 +1,4 @@
-export interface MovieResponse {
+export default interface MovieResponse {
     _id: string;
     name: string;
     runtimeInMinutes: number;

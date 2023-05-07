@@ -1,6 +1,6 @@
-import { Client } from '../client/client';
+import Client from '../client/client';
 
-export abstract class Resource {
+export default abstract class Resource {
     protected abstract readonly name: string;
 
     constructor(protected client: Client) {}

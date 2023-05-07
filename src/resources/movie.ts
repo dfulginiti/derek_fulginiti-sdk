@@ -1,7 +1,7 @@
-import { QuoteResponse } from '../models/response/quote'
-import { Resource } from './resource';
+import QuoteResponse from '../models/response/quote'
+import Resource from './resource';
 
-export class Movie extends Resource {
+export default class Movie extends Resource {
     protected readonly name = 'movie';
 
     public async quotes<T>(id: string): Promise<QuoteResponse[]> {
